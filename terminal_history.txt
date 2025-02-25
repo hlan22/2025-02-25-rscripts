@@ -1,0 +1,50 @@
+    1  refresh
+    2  ls
+    3  cd./
+    4  cd .
+    5  ls
+    6  cd ..
+    7  ls
+    8  R
+    9  cd Documents/
+   10  pwd
+   11  cd Documents/
+   12  git clone https://github.com/hlan22/2025-02-25-rscripts.git
+   13  cd 2025-02-25-rscripts
+   14  code 01-intro.R
+   15  Rscript 01-intro.R
+   16  code 02-main.R
+   17  Rscript 02-main.R
+   18  Rscript 02-main.R
+   19  Rscript 02-main.R
+   20  code 03-save.R
+   21  Rscript 03-save.R
+   22  codew 04-docopt.R
+   23  code 04-docopt.R
+   24  demo-docopt.R hello hi 310
+   25  Rscript demo-docopt.R hello hi 310
+   26  Rscript demo-docopt.R <hello> <hi> <310>
+   27  Rscript 04-docopt.R hello hi 310
+   28  Rscript 04-docopt.R
+   29  #I am missing the packages so it is not working
+   30  code 05-docopt2.R
+   31  Rscripts 05-docopt2.R age
+   32  Rscript 05-docopt2.R age
+   33  Rscript 05-docopt2.R fare
+   34  git status
+   35  git add .
+   36  git commit -m "Example R script work"
+   37  git push origin main
+   38  code 06-docopt3.R
+   39  Rscript 06-docopt3.R data/gapminder-FiveYearData.csv pop
+   40  cd data/
+   41  Rscript ../06-docopt3.R gapminder-FiveYearData.csv pop
+   42  code 07-position_kw.R
+   43  Rscript 07-position_kw.R --file_path=data/titantic.csv --var=fare
+   44  Rscript 07-position_kw.R --file_path=data/titantic.csv --var=fare
+   45  #make sure file is saved before running, otherwise will get "Segmentation fault" from bash
+   46  git status
+   47  git add .
+   48  git commit -m "continue data pipeline learning"
+   49  git push origin main
+   50  history > terminal_history.txt
